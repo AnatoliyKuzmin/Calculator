@@ -4,7 +4,7 @@ package ru.kuzmin;
 import java.util.Scanner;
 
 /*
-Класс реализует калькулятор (консольный ввод)
+Класс реализует калькулятор (консольный раздельный ввод параметров)
 */
 public class Calculator {
     static Scanner scanner = new Scanner(System.in);

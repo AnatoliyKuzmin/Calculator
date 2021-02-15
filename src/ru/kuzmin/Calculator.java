@@ -51,7 +51,7 @@ public class Calculator {
     }
 
     /*
-     *Ввод оператора
+     *Ввод оператора (+, -, *, /, ^)
      */
     public static String getOperation() {
         System.out.println("Введите операцию:");
@@ -68,6 +68,7 @@ public class Calculator {
 
     /*
      *Вычисления согласно оператору
+     * result - результат вычислений
      */
     public static double calc(double first, double second, String operation) {
         double result;
